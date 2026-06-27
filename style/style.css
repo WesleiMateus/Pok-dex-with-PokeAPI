@@ -126,10 +126,11 @@ header .content {
 
 .search-input-wrapper input {
     width: 400px;
+    height: 35px;
     padding: .7rem 1rem;
     outline: none;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .search-input-wrapper input:focus {

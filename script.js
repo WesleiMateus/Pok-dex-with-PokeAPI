@@ -36,6 +36,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 return null;
             }
 
+            console.log(id)
+            console.log(url)
+
             
             const response = await fetch(url);
             if (!response.ok) {
